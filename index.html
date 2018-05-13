@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>AJAX_task2</title>	
+</head>
+<body>
+	<div id='wrapper' class='container'>
+	  <div id='wrapperTopInfo' class='row' >
+	  	<div class='col-12 col-sm-4 time'>
+	  		<h4 id='pDate'></h4>
+	  		<h4 id='pTime'></h4>
+	  		<h4 id='pDayWeek'></h4>
+	  	</div>
+	  	<div class='col-12 col-sm-4 icon'></div>
+	  	<div class='col-12 col-sm-4 location'>
+	  		<h2 id='location'></h2>
+	  		<h2 id='temperature'></h2>
+	  	</div>	
+	  </div>
+	  <div class='currentDay'></div>
+	  <div id='wrapperDays' class='row'>
+	  	<div class='col-4 offset-1 col-md-3 offset-md-0 day'>08:00
+	  		<p class='morning'></p>
+	  		<div class='icon-day icon-morning'></div>
+	  	</div>
+	  	<div class='col-4 offset-2 col-md-3 offset-md-0 day'>12:00
+	  		<p class='afternoon'></p>
+	  		<div class='icon-day  icon-afternoon'></div>
+	  	</div>
+	  	<div class='col-4 offset-1 col-md-3 offset-md-0 day'>18:00
+	  		<p class='evening'></p>
+	  		<div class='icon-day  icon-evening'></div>
+	  	</div>
+	  	<div class='col-4 offset-2 col-md-3 offset-md-0 day'>23:00
+	  		<p class='night'></p>
+	  		<div class='icon-day  icon-night'></div>
+	  	</div>
+	  </div>
+	  <div id='wrapperBtn' class='row'>
+	  	<button class='col-2 offset-2 btnDay prev'>Prev</button>
+	  	<button class='col-2 offset-4 btnDay next'>Next</button>	
+	  </div>
+	</div>
+	<script src="task2.js"></script>
+</body>
+	
+</html>
+

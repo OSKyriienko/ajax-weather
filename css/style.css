@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 60%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#temperature:after {
+	content: '°';
+}
+
+#wrapperTopInfo {
+	padding-top: 20px;
+	text-align: center;
+}
+
+#wrapperTopInfo .time h4 {
+	margin: 5px;
+}
+
+#pDayWeek {
+	color: red;
+}
+
+#wrapperTopInfo .icon {
+	background-position: center;
+}
+
+#wrapperTopInfo .location {
+	margin: 0;
+	padding: 0;
+}
+
+.currentDay {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+#wrapperDays {
+	text-align: center;
+	margin: 0;
+}
+
+.day {
+	width: 100px;
+	height: 150px;
+	border: 1px solid silver;
+	margin-bottom: 5px;
+}
+
+.current {
+	border: 1px solid blue;
+}
+
+.icon {
+	width: 120px;
+	height: 120px;
+}
+
+.clear {
+	background: url('img/sunny.png') no-repeat;
+	background-size: contain;
+}
+.night-clear {
+	background: url('img/clear_moon.png') no-repeat;
+	background-size: contain;
+}
+.cloudy-clear {
+	background: url('img/partly_cloudy.png') no-repeat;
+	background-size: contain;
+}
+.cloudy {
+	background: url('img/cloudy.png') no-repeat;
+	background-size: contain;
+}
+.night-cloudy-clear {
+	background: url('img/moon_cloudy.png') no-repeat;
+	background-size: contain;
+}
+.rain {
+	background: url('img/rain.png') no-repeat;
+	background-size: contain;
+}
+
+.icon-day {
+	width: 80%;
+	margin: 0 auto;
+	height: 45%;
+	background-position: center;
+}
+
+.sky-night {
+	background: url('img/nightSky.jpg') no-repeat;
+	background-size: cover;	
+	color: white;
+}
+
+.sky-morning {
+	background: url('img/morningSky.jpg') no-repeat;
+	background-size: cover;	
+	color: white;
+}
+
+.sky-afternoon {
+	background: url('img/afternoonSky.jpg') no-repeat;
+	background-size: cover;	
+	color:blue;
+}
+
+.sky-evening {
+	background: url('img/eveningSky.jpg') no-repeat;
+	background-size: cover;	
+	color: blue;
+}
+
+#wrapperBtn {
+	margin: 20px 0;
+	padding-bottom: 20px;
+}
+
+.btnDay {
+
+}
